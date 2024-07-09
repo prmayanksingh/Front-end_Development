@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 7vh;
+    padding-top: 13vh;
+    padding-bottom: 0vh;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 4vh;
+}
+
+#left h1{
+    font-size: 110px;
+    font-weight: 500;
+    font-family: work sans;
+    line-height: 115px;
+}
+
+#bottom-left{
+    /* height: 35%;  */
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color{
+    width: fit-content;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius:40px;
+    border: 1px solid black;
+}
+
+#color h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#color1{
+    height: 16px;
+    width: 16px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+#color2{
+    height: 16px;
+    width: 16px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#bottom-left h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#bottom-left p{
+    width: 70%;
+}
+
+#right{
+    height: 90%;
+    width: 35%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+#right-top h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+#right-top h5{
+    font-size: 13px;
+}
+#right-top h5 i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    height: 90.2%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#black-circle{
+    height: 138px;
+    width: 138px;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#black-circle h5{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#rotate{
+    position: absolute;
+    /* background-color: red; */
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 31px;
+    font-weight: 500;
+    bottom: 2%;
+    left: -12%;
+}
