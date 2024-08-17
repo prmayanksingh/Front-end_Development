@@ -734,6 +734,30 @@ body{
 }
 
 #footer{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 12vw;
+}
+
+#footer h1{
+    font-family: monument;
+    letter-spacing: -1px;
+    font-size: 2vw;
+    position: relative;
+    margin-right: 2vw;
+    margin-top: 3vh;
+}
+
+#footer>h3{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(245, 245, 7);
+}
+
+#temp{
     height: 100%;
     width: 100%;
 }
