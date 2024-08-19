@@ -87,6 +87,10 @@ body{
     width: 26%;
 }
 
+#nav h3{
+    display: none;
+}
+
 #center{
     height: 83%;
     width: 100%;
@@ -850,6 +854,7 @@ body{
 
 @media (max-width:600px) {
     #nav{
+        width: 100%;
         height: 8vh;
         margin-top: 2vh;
         padding-left: 2.7vw;
@@ -862,6 +867,10 @@ body{
 
     }
     
+    #nav h3{
+        display: block;
+    }
+
     #nav h1::after{
         display: none;
     }
