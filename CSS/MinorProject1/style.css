@@ -1076,4 +1076,61 @@ body{
         height: 55%;
         /* background-color: red; */
     }
+
+    #page5{
+        height: 60%;
+        width: 100%;
+        position: relative;
+        padding: 7vw 2vw;
+    }
+    
+    #page5>h1{
+        font-size: 9vw;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        font-weight: 800;
+    }
+    
+    .elem{
+        height: 9vh;
+        /* background-color: red; */
+    }
+    
+    .elem img{
+        height: 7vh;
+        width: 7vh;
+        left: 27%;
+        opacity: 1;
+    }
+    
+    .elem:nth-last-child(1){
+        border-bottom: 2px solid #000;
+    }
+    
+    .elem>h4{
+        font-size: 3vw;
+        font-weight: 400;
+    }
+    
+    .elem-part2 h1{
+        font-size: 4vw;
+    }
+    
+    .elem-part2 h5{
+        font-size: 1.8vw;
+        color: #696969;
+    }
+    
+    .elem:nth-last-child(1) img{
+        left: 27%;
+    }
+    
+    .elem:nth-last-child(3) img{
+        left: 27%;
+    }
+    
+    .elem:hover img{
+        left: 27%;
+    }
+    
 }
