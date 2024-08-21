@@ -1174,5 +1174,10 @@ body{
 
     #page7{
         height: 40%;
+        padding: 2vh 4vw;
+    }
+    
+    #page7 img{
+        object-position: 50% 20%;
     }
 }
