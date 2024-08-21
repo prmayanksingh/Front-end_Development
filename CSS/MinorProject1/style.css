@@ -1022,4 +1022,63 @@ body{
         font-weight: 1000;
     }
     
+    #page3{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        /* background-color: red; */
+    }
+    
+    #page3-part1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 70%;
+        width: 70%;
+        /* background-color: yellow; */
+    }
+    
+    #circular{
+        height: 50vw;
+        width: 70vw;
+        /* background-color: aqua; */
+        margin-top: 2.3vh;
+    }
+    
+    #circular>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #arrow {
+        height: 20%;
+        width: 20%;
+    }
+
+    #page3-text{
+        width: 100%;
+        height: 30%;
+        padding-left: 5vw;
+        padding-top: 2vh;
+        /* background-color: red; */
+        margin-top: 1.4vh;
+    }
+    
+    #page3-text h3{
+        font-size: 3.4vw;
+        line-height: 2vh;
+        font-weight: 600;
+    }
+    
+    #page3-part2{
+        height: 100%;
+        width: 56%;
+        background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: top;
+    }
+    
 }
