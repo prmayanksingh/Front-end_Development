@@ -1069,16 +1069,11 @@ body{
     
     #page3-text h3{
         font-size: 3.4vw;
-        line-height: 2vh;
-        font-weight: 600;
+        line-height: 2.3vh;
     }
     
-    #page3-part2{
-        height: 100%;
-        width: 56%;
-        background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-        background-size: cover;
-        background-position: top;
+    #page4{
+        height: 55%;
+        /* background-color: red; */
     }
-    
 }
