@@ -886,53 +886,23 @@ body{
     #center{
         height: 50%;
     }
-    #content{
-        height: 100%;
-        /* background-color: blue; */
-        object-fit: cover;
-        position: relative;
-    }
-    #content video{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
     
     #overlay{
         height: fit-content;
-        width: 100%;
-        /* background-color: red; */
-        position: absolute;
-        bottom: 0;
         padding: 2vw 2vh;
-    }
-    #over1{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: #fff;
-        margin-bottom: 2vw;
-    }
-    
+    } 
+
     #over1 h1{
-        font-family: monument;
         font-size: 6vw;
     }
     
     #over1 h2{
         font-size: 2.5vw;
         padding: 4vw;
-        /* background-color: blue; */
         border-radius: 50%;
-        border: 1px solid #fff;
     }
     
     #over2{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: #fff;
-        border-top: 2px solid #fff;
         padding: 1vw 0;
     }
     #over2 h5{
@@ -940,7 +910,36 @@ body{
         font-weight: 500;
     }
     #over2 img{
-        height: 3.5vw;
+        height: 7vw;
     
+    }
+
+    #scroll{
+        height: 15vh;
+        width: 100%;
+        /* background-color: red; */
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    #container{
+        height: 100%;
+        width: 120%;
+        /* background-color: blue; */
+        display: inline-block;
+        padding: 1vw;
+        animation-name: anime;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #scroll img{
+        height: 18vw;
+        width: 17vw;
+        border-radius: 50%;
+        margin: 1.1vw;
+        object-fit: cover;
+        object-position: top;
     }
 }
