@@ -1232,37 +1232,22 @@ body{
     }
     
     #blog{
-        height: 70%;
-        width: 100%;
-        /* background-color: red; */
-        margin-top: 5vh;
         padding: 2vh 4vw;
-        display: flex;
-        justify-content: space-between;
     }
     
     #blog-part1{
-        height: 100%;
-        width: 55%;
-        /* background-color: rgb(0, 166, 255); */
-        display: flex;
         flex-direction: column;
         
     }
     
     #blog-part1>h1{
         font-size: 10vw;
-        font-family: monument;
-        text-transform: uppercase;
         letter-spacing: 1px;
         margin-left: 1vh;
     }
     
     #blog-part1-2{
-        height: 100%;
         width: 100%;
-        /* background-color: #ab59cc; */
-        position: relative;
     }
     
     #blog-part1-2 h2{
@@ -1273,21 +1258,7 @@ body{
     }
     
     #blog-part1-2 img{
-        height: 60%;
-        width: 100%;
-        object-fit: cover;
-        object-position: 0 30%;
-        position: absolute;
-        bottom: 0;
-        
-    }
-    
-    #blog-part2{
-        height: 100%;
-        width: 41%;
-        /* background-color: yellowgreen; */
-        position: relative;
-        
+        height: 63%;
     }
     
     #blog-part2 h2{
@@ -1297,11 +1268,68 @@ body{
     }
     
     #blog-part2 img{
-        height: 60%;
-        width: 100%;
-        object-fit: cover;
         object-position: 50% 45%;
-        position: absolute;
-        bottom: 0;
+    }
+
+    #footer{
+        height: 20%;
+        width: 100%;
+        margin-top: 2vh;
+    }
+    
+    #footer-nav{
+        padding-left: 1vw;
+    }
+    
+    #footer-nav h1{
+        padding: 1.5vw;
+        font-weight: 900;
+        font-size: 6.5vw;
+    }
+    
+    #footer-nav h1::after{
+        display: none;
+    }
+    
+    #footer-nav h1::before{
+        display: none;
+    }
+    
+    #footer-nav>h3{
+        padding: 2vw;
+        font-size: 2.8vw;
+        font-weight: 400;
+    }
+
+    #footer-right{
+        width: 48%;
+    }
+    
+    #top{
+        height: 40%;
+        padding-left: 2.6vw;
+    }
+    
+    #top h3{
+        font-size: 2.8vw;
+        font-weight: 400;
+    }
+    
+    #bottom img{
+        height: 4vw;
+        width: 4vw;
+        margin-left: 1vw;
+        margin-top: 1vh;
+    }
+    
+    #bottom img:nth-child(1){
+        margin-left: 2.7vw;
+    }
+    
+    #bottom h5{
+        margin-left: 3vw;
+        margin-top: 0.5vw;
+        font-size: 1.7vw;
+        font-weight: 400;
     }
 }
