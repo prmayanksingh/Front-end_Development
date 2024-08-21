@@ -1219,4 +1219,16 @@ body{
         font-size: 3vw;
         line-height: 2.6vh;
     }
+
+    #marque{
+        height: 6vh;
+        margin-top: 0.5vh;
+    }
+    
+    #marque h1{
+        font-size: 9vw;
+        font-family: 'Courier New', Courier, monospace;
+        -webkit-text-stroke: 1px #000;
+    }
+    
 }
