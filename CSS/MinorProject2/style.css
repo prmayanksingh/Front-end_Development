@@ -67,7 +67,7 @@ html,body{
 #nav-part2 button:nth-child(1){
     background-color: transparent;
     margin-right: 5px;
-    color: #000;
+    color: #0D0C22;
 }
 
 #nav-part2 button::after{
@@ -80,7 +80,7 @@ html,body{
 #content{
     height: calc(100% - 10vh);
     width: 100%;
-    background-color: rgb(213, 169, 178);
+    /* background-color: rgb(213, 169, 178); */
     padding-top: 9.7vh;
 }
 
@@ -117,34 +117,47 @@ html,body{
 }
 
 #content button{
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
+    font-size: 17px;
     font-weight: 700;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    padding: 0.8vw 1.2vw;
+    border: none;
+    /* padding: 0.8vw 1.2vw; */
+    padding: 16px 23px;
     color: #fff;
-    background-color: #000;
+    background-color: #0D0C22;
     border-radius: 50px;
     margin-top: 4vh;
+    margin-bottom: 70px;
 }
 
 #bottom {
-    height: 42vh;
+    height: 350px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     padding: 5px;
-    display: flex;
+    gap: 30px;
+    white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    flex-wrap: nowrap;
-    gap: 30px;
 }
 
 .elem{
-    flex-shrink: 0;
+    display: inline-block;
     height: 100%;
     width: 250px;
-    background-color: blue;
-    border: 2px solid #000;
+    background-color: royalblue;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
 }
