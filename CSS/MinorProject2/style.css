@@ -199,10 +199,11 @@ html,body{
 }
 
 #page2{
-    height: 100%;
+    height: fit-content;
     width: 100%;
     margin-top: 70px;
     padding: 70px;
+    /* background-color: red; */
 }
 
 #page2 h1{
@@ -274,3 +275,27 @@ html,body{
     margin-bottom: 20px;
 }
 
+#page2 button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: 15px 23px;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: all ease 0.2s;
+}
+
+#page2 button:hover{
+    border-color: #565564;
+    color: #565564;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
