@@ -43,8 +43,8 @@ html,body{
 }
 
 #nav img{
-    height: 5vw;
-    width: 17vw;
+    /* height: 5vw;
+    width: 17vw; */
     height: 100px;
     width: 300px;
 }
@@ -159,7 +159,7 @@ html,body{
     height: 100%;
     /* width: 180%; */
     width: 3230px;
-    background-color: rgb(122, 122, 211);
+    /* background-color: rgb(122, 122, 211); */
     animation-name: animation;
     animation-duration: 50s;
     animation-timing-function: linear;
@@ -418,7 +418,60 @@ html,body{
     }
 }
 
-#page5{
-    height: 100%;
+#footer{
+    height: 150px;
     width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#footer img{
+    height: 100px;
+    width: 350px;
+}
+
+#footer h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px;
+    color: #0D0C22;
+}
+
+#footer h5:nth-last-child(5){
+    margin-right: 70px;
+}
+
+#footer i{
+    font-size: 22px;
+    margin: 6px;
+}
+
+#last-footer{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 192px;
+}
+
+#last-footer h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #7C7D87;
+}
+
+#part1{
+    display: flex;
+    gap: 20px;
+}
+
+#part2{
+    display: flex;
+    gap: 20px;
 }
