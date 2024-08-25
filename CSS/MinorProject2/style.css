@@ -157,9 +157,9 @@ html,body{
 .bottom-content{
     display: inline-block;
     height: 100%;
-    width: 180%;
+    /* width: 180%; */
     width: 3230px;
-    /* background-color: rgb(122, 122, 211); */
+    background-color: rgb(122, 122, 211);
     animation-name: animation;
     animation-duration: 50s;
     animation-timing-function: linear;
@@ -351,7 +351,74 @@ html,body{
     background-color: #565564;
 }
 
-#page4{
+#scroll{
+    height: 240px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 75px;
+    padding: 5px;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#scroll-box{
+    flex-shrink: 0;
+    height: 100%;
+    width: 1897px;
+    /* background-color: rgb(181, 207, 32); */
+    padding: 23px;
+    display: flex;
+    gap: 43px;
+    animation-name: scroll;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.scroll-img{
+    height: 90%;
+    width: 240px;
+    /* background-color: rgb(8, 0, 255); */
+    border-radius: 7px;
+    /* overflow: hidden; */
+    position: relative;
+    box-shadow: 
+    4px -4px 0px 0px #eadff0,
+    8px -8px 0px 0px #dbf3e4;
+    transition: all ease 0.3s;
+}
+
+.scroll-img:hover{
+    box-shadow: 
+    5px -5px 0px 2px #eadff0,
+    9px -9px 0px 4px #dbf3e4;
+}
+
+.scroll-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.scroll-img h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 13px;
+    color: #565564;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+#page5{
     height: 100%;
     width: 100%;
 }
