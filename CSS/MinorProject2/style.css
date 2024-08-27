@@ -376,7 +376,6 @@ html,body{
     animation-timing-function: linear;
 } 
 
-
 .scroll-img{
     height: 90%;
     width: 240px;
@@ -410,7 +409,7 @@ html,body{
     color: #565564;
 }
 
-@keyframes scroll {
+@keyframes scroll{
     from{
         transform: translateX(0);
     }
