@@ -409,16 +409,41 @@
 
 // error handling - try catch
 
-function divide(a,b){
-    try{
-        if(b == 0){
-            throw Error("something is wrong");
-        }
-        console.log(a/b);
-    }
-    catch(err){
-        console.error(err);
-    }
-}
+// function divide(a,b){
+//     try{
+//         if(b == 0){
+//             throw Error("something is wrong");
+//         }
+//         console.log(a/b);
+//     }
+//     catch(err){
+//         console.error(err);
+//     }
+// }
 
-divide(12,0);
+// divide(12,0);
+
+
+
+
+// events - click, dblclick, mouseover, input
+
+// coustom events
+
+// how
+
+// make event
+const evt = new Event("chacha");
+
+//attach event to some dom element
+document.querySelector("button")
+.addEventListener("chacha", function(){
+    alert("chacha event hua");
+})
+
+// dispatch that event from that dom element in which you attached the event
+document.querySelector("button").dispatchEvent(evt)
+
+// why
+
+
