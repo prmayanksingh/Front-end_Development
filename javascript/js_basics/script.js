@@ -191,14 +191,17 @@
 // this ki value baar baar badal sakti hai alag laag conditions mein, saari conditions ko seekh jaao to this
 // ko samajh jaaoge
 
+
 // // global - window
 // console.log(this);
+
 
 // // function - window
 // function abcd(){
 //     console.log(this);
 // }
 // abcd();
+
 
 // // method - object
 // var obj = {
@@ -209,6 +212,7 @@
 //     email: "hello@hello.com"
 // }
 // obj.name();
+
 
 // // func inside method (es5) - window
 // var obj2 = {
@@ -223,6 +227,7 @@
 // }
 // obj2.sayName();
 
+
 // // func inside method (es6) - object
 // var obj3 = {
 //     sayName: function(){
@@ -235,12 +240,14 @@
 // }
 // obj3.sayName();
 
+
 // // constructor fun mein this ki value - new blank object
 // function add(){
 //     console.log(this);
 // }
 
 // const ans = new add();
+
 
 // // event listener mein this ki value - that element jispar event listner laga ho
 // document.querySelector("button")
@@ -294,3 +301,25 @@
 
 
 // Prototypal Inheritance
+
+// hum objects create karte hai and kisi ek parent constructor function ke prototype mein kuch add 
+// kar dete hai and jab bhi add hota hai to wo parent dse banne waale sabhi chilldren instances ko 
+// wo properties jo parent ko prototype mein di gayi thi wo milti hai  
+
+// ek function jo ki this ka use kar raha ho and new ke through naye naye objects bana kar deta ho 
+// aise function ko constructor function kahte hai
+
+// function makeHuman(name, age){
+//     this.name = name;
+//     this.age = age;
+// }
+
+// makeHuman.prototype.printMyName = function(){
+//     console.log(this.name);
+// }
+
+// let human1 = new makeHuman("mayank", 20);
+// let human2 = new makeHuman("harsh", 25);
+
+
+
