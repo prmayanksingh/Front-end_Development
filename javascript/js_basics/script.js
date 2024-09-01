@@ -118,6 +118,8 @@
 // to reuse code and to wrap the code which we want to run in future at some point of time
 
 
+
+
 // prep for interview
 // function abcd(){
 //     // function statement
@@ -152,6 +154,9 @@
 // console.log(b);
 
 
+
+
+
 // undefined is a value 
 // ye value tab di jaati hai jab variable ko koi value naa mili ho, iska matlab hai, ye ek garbage value ki 
 // tarah treat ki jaati hai, aap isey default value bhi kah sakte ho
@@ -181,6 +186,9 @@
 //     for: "camara",
 //     isWorking: true
 // };
+
+
+
 
 
 
@@ -257,6 +265,9 @@
 
 
 
+
+
+
 // call apply bind
 // ye teen tareeke hai function ko call karne ke kisi object ko this maan kar
 
@@ -300,6 +311,8 @@
 
 
 
+
+
 // Prototypal Inheritance
 
 // hum objects create karte hai and kisi ek parent constructor function ke prototype mein kuch add 
@@ -323,3 +336,19 @@
 
 
 
+
+
+// closures
+
+// aisa koi bhi function jo ek aur function ko return karde usey closure kahte hai.
+// ek function jo return kare doosra function, aur use kare parent function ka koi variable
+
+function abcd(){
+    var a = 12;
+    return function(){
+        console.log(a);
+    }
+}
+
+var ans = abcd();
+ans();
