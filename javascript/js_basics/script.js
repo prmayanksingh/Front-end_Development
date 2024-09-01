@@ -358,19 +358,47 @@
 
 
 
+
 // event delegation
 
 // event delegation = jab aap event listener se kai saare different elements ke events ko handle kar sake.
 // event listener ko parent par lagao and unko id, class ya fir tag ke basis par differentiate karke
 // different task karao
 
-var parent = document.querySelector("#parent")
+// var parent = document.querySelector("#parent")
 
-parent.addEventListener("click", function(event){
-    if(event.target.id === "play"){
-        console.log("play song");
-    }
-    else if(event.target.id === "pause"){
-        console.log("pause song");
-    }
-})
+// parent.addEventListener("click", function(event){
+//     if(event.target.id === "play"){
+//         console.log("play song");
+//     }
+//     else if(event.target.id === "pause"){
+//         console.log("pause song");
+//     }
+// })
+
+
+
+
+
+
+// higher order functions
+
+// aisa koi function jo ki ek function ko parameter mein accept karle and/or ek function ko return karde
+
+// function abcd(param){
+
+// }
+
+// abcd(function(){});
+
+// function abcd(){
+//     return function(){
+
+//     }
+// }
+
+// var arr = [1,2,3,4,5,6];
+
+// arr.forEach(function(){
+
+// })
