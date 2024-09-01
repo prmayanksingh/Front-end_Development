@@ -257,7 +257,9 @@
 // const ans = new add();
 
 
+
 // // event listener mein this ki value - that element jispar event listner laga ho
+
 // document.querySelector("button")
 // .addEventListener("click", function(){
 //     console.log(this);
@@ -343,12 +345,32 @@
 // aisa koi bhi function jo ek aur function ko return karde usey closure kahte hai.
 // ek function jo return kare doosra function, aur use kare parent function ka koi variable
 
-function abcd(){
-    var a = 12;
-    return function(){
-        console.log(a);
-    }
-}
+// function abcd(){
+//     var a = 12;
+//     return function(){
+//         console.log(a);
+//     }
+// }
 
-var ans = abcd();
-ans();
+// var ans = abcd();
+// ans();
+
+
+
+
+// event delegation
+
+// event delegation = jab aap event listener se kai saare different elements ke events ko handle kar sake.
+// event listener ko parent par lagao and unko id, class ya fir tag ke basis par differentiate karke
+// different task karao
+
+var parent = document.querySelector("#parent")
+
+parent.addEventListener("click", function(event){
+    if(event.target.id === "play"){
+        console.log("play song");
+    }
+    else if(event.target.id === "pause"){
+        console.log("pause song");
+    }
+})
