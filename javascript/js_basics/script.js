@@ -433,17 +433,17 @@
 // how
 
 // make event
-const evt = new Event("chacha");
+// const evt = new Event("chacha");
 
-//attach event to some dom element
-document.querySelector("button")
-.addEventListener("chacha", function(){
-    alert("chacha event hua");
-})
+// //attach event to some dom element
+// document.querySelector("button")
+// .addEventListener("chacha", function(){
+//     alert("chacha event hua");
+// })
 
-// dispatch that event from that dom element in which you attached the event
-document.querySelector("button").dispatchEvent(evt)
+// // dispatch that event from that dom element in which you attached the event
+// document.querySelector("button").dispatchEvent(evt)
 
-// why
+
 
 
