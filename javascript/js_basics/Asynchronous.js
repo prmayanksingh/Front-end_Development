@@ -16,6 +16,7 @@
 
 
 
+
 // setinterval - set interval ka code kuchh der baad chalta hai baar baar ek particular interval time mein.
 // setInterval(function(){
 //     console.log("hey");
@@ -30,6 +31,7 @@
 
 
 
+
 // Fetch API - ye kisi url (API) par jaa kar kuchh data laayega ya data humaare paas se us url (API) par lekar jaayega.
 // kyuki ye internet par jaayega aur fir data ko leka aayega to ismein time lagta hai to by default hi js mein fetch ko async banaaya gaya hai kyuki fetch ka kaam hai data laana wo bhi kisi url se , ab aisa ho skta hai us url ki website slow ho, to data laane mein time laga aur agar fetch synchronous hota to uske baad ka code tab tak nahi chalta jab tak uska data nahi aajata, which is a big problem, poora code atak sakta tha
 
@@ -40,7 +42,10 @@
 
 
 
-
 // Axios (or other HTTP libraries) - ye bhi wahi karega jo fetch karta hai bas ye thoda jaada developer friendly hai.
+// axios.get(`https://randomuser.me/api/`)
+// .then(result => console.log(result.data.results[0])
+
+
 
 // promise - isme jo bhi code likhoge wo apana kaam karega aur ye khud side stack mein chala jaayega us code ko lekar aur jab andar se code ko resolve kiya jaayega tab ye chalega.
