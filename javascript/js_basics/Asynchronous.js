@@ -48,4 +48,29 @@
 
 
 
-// promise - isme jo bhi code likhoge wo apana kaam karega aur ye khud side stack mein chala jaayega us code ko lekar aur jab andar se code ko resolve kiya jaayega tab ye chalega.
+
+
+// Promise - isme jo bhi code likhoge wo apana kaam karega aur ye khud side stack mein chala jaayega us code ko lekar aur jab andar se code ko resolve kiya jaayega tab ye chalega.
+
+// kuchh code socho man mein, jo ki async code ho, matlab ki ye side stack mein jaayega aur baad mei chalega main stack ke, ab ye socho ki aapne is code ko likha hai to iska answer kabhi aayega aur aisa bhi ho sakta hai ki answer naa aaye, promises kya hai aisa samjho ki aap promise ke andar koi bhi async code likhdo jo man mein aaye aur promise aapko ek parchi dedeta hai and wo parchi par by default likha hota hai waiting, parchi par do events hote hai mainly ekd event ka naam hai then aur ek event ka naam hai catch, agar aapka data aagaya to parchi pe resolved likhjaayega waiting ki jagah and then chalega aur ager data mein dikkat aayi to catch chalega nad waiting ki jagah rejected likhjaayega. 
+
+// aman - me as a developer  raghav - promise
+// aman raghav ke paas gaya aur bola ki khaana lene bhejdo kisiko raaghav ne kisi ko bhej diya and aman ko bola ye parchi lelo jab bhi wo banda aajayega to parchi par pata chal jaayega
+
+// const parchi = new Promise(function(resolve, reject){
+//     fetch(`https://randomuser.me/api/`)
+//     .then(raw => raw.json())
+//     .then(result => {
+//         if(result.results[0].gender === "male") resolve();
+//         else reject();
+//     })
+// });
+
+// parchi
+// .then(function(){
+//     console.log("green button daba");
+// })
+// .catch(function(){
+//     console.log("red button daba");
+// })
+
