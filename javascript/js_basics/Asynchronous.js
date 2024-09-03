@@ -74,3 +74,38 @@
 //     console.log("red button daba");
 // })
 
+
+
+
+// Callbacks
+// callback kuch bhi ek function hai jise pass kiya gaya ho kisi aur function mein aur jab wo function chale to aap us pass kiye gaye callback function ko chal paayege
+
+// function abcd(a, b){
+//     b();
+// }
+// abcd(1, function(){console.log("callback chala")})
+
+// user ka data mangaao and jab data aajaye to us data ke name, gender and email ko print karo
+
+// function getData(url, callback){
+//     fetch(url)
+//     .then(raw => raw.json())
+//     .then(result => {
+//         callback(result)
+//     })
+// }
+
+// getData (`https://randomuser.me/api/`, function(result){
+//     console.log(result.results[0].gender, result.results[0].email, result.results[0].name.first);
+// })
+
+
+
+
+
+
+
+
+
+
+
