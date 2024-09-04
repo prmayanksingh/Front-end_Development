@@ -103,9 +103,24 @@
 
 
 
+// Async/Await - koi bhi function banaalo and uske andar jo man mein aaye wo async code likhdo, ab jab aap async likhte ho to baad waali line pahle chal jaati hai kyuki asyn side stack pe hota hai aur baad walli line agar async ke basis par hui to aapka code fail ho jaayega, wo isliye kyuki aapka code depend karta hai async code par jo ki baad mein chalega sync code chalne ke baad.
+
+// with async await aap async code bhi aise likh skte ho jaise ki aap normal synchronous code likh rahe ho
+
+// async function abcd(){
+//     let a = await fetch(`https://randomuser.me/api/`);
+//     a = await a.json();
+//     console.log(a);
+// }
+
+// abcd();
 
 
 
 
 
+
+// Event Loop
+
+// (main stack) (event loop) (callback queue(side stack))
 
