@@ -174,9 +174,6 @@
 // })
 
 
-//
-
-
 // Async/Await
 // async function dataFetcher(url){
 //     let data = await fetch(url);
@@ -190,3 +187,72 @@
 // }
 
 // hh();
+
+
+
+
+
+
+
+
+
+
+// Generators
+// aap execution ko pause kr skte ho and bol sakte ho ki ab agla step karo aur fir aap agla step jab bhi chahiye wo step kar skte ho
+
+// function* printNums(){ 
+//     console.log("started");
+//     yield 1;
+//     console.log("pehla chal chuka");
+//     yield 2;
+//     console.log("dusra chal chuka");
+//     yield 3;
+// }
+// const ans = printNums();
+// console.log(ans.next());
+// console.log(ans.next());
+// console.log(ans.next());
+
+// 1-10
+// function* allNums(){
+//     for(let i = 1; i < 11; i++){
+//         yield i;
+//     }
+// }
+
+// const gen = allNums();
+// console.log(gen.next().value);
+// console.log(gen.next().value);
+// console.log(gen.next().value);
+// console.log(gen.next().value);
+
+// prime numbers from 1-20 using generator
+// function* printPrime(){
+//     for(let i = 2; i <= 20; i++){
+//         let j = 2
+//         for(; j <= i/2; j++){
+//             if(i % j === 0) break;
+//         }
+//         if(j > i/2) yield i;
+//     }
+// }
+
+// const ans = printPrime();
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
