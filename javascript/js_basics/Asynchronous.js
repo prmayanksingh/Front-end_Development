@@ -77,6 +77,9 @@
 
 
 
+
+
+
 // Callbacks
 // callback kuch bhi ek function hai jise pass kiya gaya ho kisi aur function mein aur jab wo function chale to aap us pass kiye gaye callback function ko chal paayege
 
@@ -103,6 +106,9 @@
 
 
 
+
+
+
 // Async/Await - koi bhi function banaalo and uske andar jo man mein aaye wo async code likhdo, ab jab aap async likhte ho to baad waali line pahle chal jaati hai kyuki asyn side stack pe hota hai aur baad walli line agar async ke basis par hui to aapka code fail ho jaayega, wo isliye kyuki aapka code depend karta hai async code par jo ki baad mein chalega sync code chalne ke baad.
 
 // with async await aap async code bhi aise likh skte ho jaise ki aap normal synchronous code likh rahe ho
@@ -120,7 +126,67 @@
 
 
 
-// Event Loop
 
+
+
+// Event Loop
 // (main stack) (event loop) (callback queue(side stack))
 
+
+
+
+
+
+
+
+// Callbacks vs Promises vs Async/Await
+// ek url se data lekar aao and usey console par show karo
+
+// Callbacks
+// function dataFetcher(url, callback){
+//     fetch(url) 
+//     .then(raw => raw.json())
+//     .then(result => {
+//         callback(result);
+//     })
+// }
+
+// dataFetcher(`https://randomuser.me/api/`, function(result){
+//     console.log(result.results[0].name.first);
+// })
+
+
+// Promises
+// function dataFetcher(url){
+//     const parchi = new Promise(function(resolve, reject){
+//         fetch(url)
+//         .then(raw => raw.json())
+//         .then(result => {
+//             resolve(result);
+//         })
+//     })
+//     return parchi;
+// }
+
+// dataFetcher(`https://randomuser.me/api/`)
+// .then(function(result){
+//     console.log(result);
+// })
+
+
+//
+
+
+// Async/Await
+// async function dataFetcher(url){
+//     let data = await fetch(url);
+//     let result = await data.json();
+//     return result;
+// }
+
+// async function hh(){
+//     let data = await dataFetcher(`https://randomuser.me/api/`);
+//     console.log(data);
+// }
+
+// hh();
