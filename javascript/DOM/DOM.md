@@ -15,7 +15,15 @@ Manipulating Styles and Classes:
     style
     classList
 
+Creating and Deleting Elements:
+    createElement()
+    appendChild()
+    removeChild()
 
+Event Handling:
+    addEventListener()
+
+Event Object
 
 
 
