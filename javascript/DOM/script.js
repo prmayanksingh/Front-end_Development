@@ -51,14 +51,33 @@
 
 
 
+
+
 // change in css
 
-var h1 = document.querySelector('h1');
-h1.classList.add('makeitred');
+// var h1 = document.querySelector('h1');
+// h1.classList.add('makeitred');
 
 
 
 
+
+
+
+// Creating and Deleting Element
+
+// var h1 = document.createElement('h1');
+// h1.textContent = "hey";
+// h1.classList.add("makeitred");
+
+// document.querySelector("body").appendChild(h1);
+
+var img = document.createElement('img');
+img.src = 'https://images.unsplash.com/photo-1709321954258-698bea8a21e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+
+document.querySelector("body").appendChild(img);
+// removing
+document.querySelector("body").removeChild(img);
 
 
 
