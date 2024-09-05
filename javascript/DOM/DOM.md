@@ -11,7 +11,9 @@ Accessing Elements:
 Modifying Elements:
     innerHTML, textContent
 
-
+Manipulating Styles and Classes:
+    style
+    classList
 
 
 
