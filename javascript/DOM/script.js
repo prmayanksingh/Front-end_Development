@@ -72,15 +72,41 @@
 
 // document.querySelector("body").appendChild(h1);
 
-var img = document.createElement('img');
-img.src = 'https://images.unsplash.com/photo-1709321954258-698bea8a21e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+// var img = document.createElement('img');
+// img.src = 'https://images.unsplash.com/photo-1709321954258-698bea8a21e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 
-document.querySelector("body").appendChild(img);
-// removing
-document.querySelector("body").removeChild(img);
+// document.querySelector("body").appendChild(img);
+// // removing
+// document.querySelector("body").removeChild(img);
 
 
 
+
+
+
+
+// Event Handling
+
+// jab bhi aap kisi element par kisi bhi prakaar ka koi action krte ho to waha par event by default automatically raise hota hai ab agar aapne koi event listener nahi banaya hai to wo event ignore krdiya jaata hai par agar aapne listener banaya hai us event par to wo event ignore nahi kiya jaayega balki uska listener chalega.
+
+
+// var btn = document.querySelector("button");
+// btn.addEventListener('mouseover', function(){
+//     btn.textContent = "starting....";
+//     btn.style.backgroundColor = 'red';
+// })
+// btn.addEventListener('mouseleave', function(){
+//     btn.textContent = "make new card";
+//     btn.style.backgroundColor = 'white';
+// })
+// click, dblclick, mouseover, mouseleave
+
+
+// Event Object
+// document.querySelector("body")
+// .addEventListener("mousemove", function(dets){
+//     console.log(dets);
+// })
 
 
 
