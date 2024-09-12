@@ -14,7 +14,7 @@
 
 8. Create a search bar that displays live search results as users type, updating the results without requiring a full page reload.
 
-
+9. Build a character counter for a text area or input field, which updates in real time as the user types and enforces a character limit.
 
 
 
