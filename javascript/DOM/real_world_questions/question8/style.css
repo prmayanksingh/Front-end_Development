@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy Light';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.container{
+    padding: 10vw 25vw;
+}
+
+input{
+    width: 100%;
+    padding: 12px 22px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    outline-color: royalblue;
+}
+
+.people{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.person{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person h4{
+    margin-top: 3px;
+}
+
+.img{
+    height: 7vw;
+    width: 7vw;
+    border: 2px solid #dadada;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
