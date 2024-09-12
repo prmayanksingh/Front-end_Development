@@ -9,3 +9,10 @@
 5. Build a countdown timer that starts and stop when a button is clicked and updates the display in real-time.
 
 6. Create a tabbed interface where clicking on tabs displays different content section without page reload.
+
+7. Display a progres bar that updates in real-time, showing the progress of a task, download, or form submission.
+
+
+
+
+
