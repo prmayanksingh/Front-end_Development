@@ -84,18 +84,24 @@
 
 // blocking scroll until something happens
 
-document.querySelector('#hide')
-.addEventListener('click', function(){
-    document.body.classList.toggle("overflow-hidden")
-})
+// document.querySelector('#hide')
+// .addEventListener('click', function(){
+//     document.body.classList.toggle("overflow-hidden")
+// })
 
 
 
 
 
 
+// custom tooltip
 
+// document.querySelector("#hide").addEventListener('mouseenter', function(){
+//     document.querySelector(".tooltip").style.display = 'initial';
+// })
 
-
+// document.querySelector("#hide").addEventListener('mouseleave', function(){
+//     document.querySelector(".tooltip").style.display = 'none';
+// })
 
 
