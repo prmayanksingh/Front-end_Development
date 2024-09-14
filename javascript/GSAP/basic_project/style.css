@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+    color:#fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #0c0c0c;
+    overflow: hidden;
+}
+
+#nav{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#nav-part2{
+    display: flex;
+    gap:35px;
+}
+
+#nav h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#main h1{
+    font-size: 170px;
+    font-weight: 500;
+    line-height: 150px;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 9;
+}
+
+#main h1:nth-child(2){
+    margin-top:175px;
+}
+
+#main h1:nth-child(3){
+    text-align: center;
+}
+
+#main h1:nth-child(4){
+    text-align: center;
+}
+
+img{
+    height: 460px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+#img1{
+    rotate: 20deg;
+}
+
+#img2{
+    rotate: 10deg;
+}
+
+#footer{
+    height: 65px;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    gap: 645px;
+}
+
+#footer h3{
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#footer-part2 h3{
+    text-align: center;
+}
+
+
