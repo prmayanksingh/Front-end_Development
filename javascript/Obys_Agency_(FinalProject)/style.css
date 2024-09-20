@@ -16,7 +16,7 @@ html,body{
     width: 100%;
     position: fixed;
     z-index: 999;
-    background-color: #030303;
+    background-color: #0B0B0B;
     padding: 15vh 5vw;
 }
 
@@ -76,7 +76,7 @@ html,body{
 .line h2{
     font-size: 4.6vw;
     text-transform: uppercase;
-    animation-duration: 1.9s;
+    animation-duration: 1.8s;
     animation-iteration-count: infinite;
     -webkit-text-stroke: 1px #fff;
     font-weight: 500;
@@ -113,7 +113,7 @@ html,body{
 
 #main{
     position: relative;
-    background-color: #030303;
+    background-color: #0B0B0B;
 }
 
 #page1{

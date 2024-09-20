@@ -1,4 +1,5 @@
-var h5text = document.querySelector("#line1-part1 h5")
+function loadingAnimation(){
+    var h5text = document.querySelector("#line1-part1 h5")
 
 var tl = gsap.timeline();
 tl.from(".line h1, .line h2",{
@@ -34,24 +35,23 @@ tl.to(".line h2",{
 
 tl.to("#loader", {
     opacity:0,
-    delay:2.2,
+    delay:2.3,
     duration:1,
-    
 })
 
 tl.from("#page1", {
     y:1200,
     opacity:0,
-    delay:0.2,
-    duration:0.5,
-    ease:Power4
+    delay:0.4,
+    duration:1,
+    ease: "power4.out"
 })
 
 tl.to("#loader", {
     display:"none"
 })
-
-
+}
+loadingAnimation();
 
 
 
