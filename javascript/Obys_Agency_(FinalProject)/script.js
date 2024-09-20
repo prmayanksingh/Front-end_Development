@@ -49,7 +49,7 @@ tl.from("#page1", {
 
 tl.to("#loader", {
     display:"none"
-})
+}) 
 }
 loadingAnimation();
 
