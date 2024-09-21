@@ -53,7 +53,12 @@ tl.to("#loader", {
 }
 loadingAnimation();
  
-
+document.addEventListener("mousemove", function(dets){
+    gsap.to("#crsr", {
+        left:dets.x,
+        top:dets.y
+    })
+})
 
 
 
