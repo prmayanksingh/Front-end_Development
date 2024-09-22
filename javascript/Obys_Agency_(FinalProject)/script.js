@@ -36,7 +36,7 @@ tl.to(".line h2",{
 tl.to("#loader", {
     opacity:0,
     duration:1,
-    delay:0,
+    delay:2.6,
 })
 
 tl.from("#page1", {
@@ -56,7 +56,7 @@ tl.from("#nav",{
 })
 
 tl.from("#hero1 h1, #hero2 h1, #hero3 h2, #hero3 h3, #hero4 h1, #hero-num h4",{
-    y:120,
+    y:140,
     stagger:0.1
 })
 
