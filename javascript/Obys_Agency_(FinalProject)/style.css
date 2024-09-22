@@ -141,6 +141,17 @@ html,body{
     justify-content: space-between;
     padding: 2.6vw 6.8vw;
     padding-right: 4vw;
+    position: relative;
+}
+
+#nav-part1 h5{
+    position: absolute;
+    top:40%;
+    left: 27.5%;
+    font-size: 0.9vw;
+    font-weight: 500;
+    line-height: 1.86vh;
+    letter-spacing: -1px;
 }
 
 #nav-part2{
