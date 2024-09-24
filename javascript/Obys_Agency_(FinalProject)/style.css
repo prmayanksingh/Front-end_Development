@@ -232,7 +232,7 @@ html,body{
 
 .hero h2{
     border-bottom: 0.55vw solid #fff;
-    transition: all ease 0.2s;
+    /* transition: all ease 0.3s; */
 }
 
 
