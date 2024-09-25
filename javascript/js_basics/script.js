@@ -47,6 +47,10 @@
 // compiler (code ko jaldi chalata hai) and make sure the user gets the best performance
 
 
+
+
+
+
 // window
 // window is a collection of all the tools which are available in the browser and are given by the browser to use
 // in js.
@@ -59,6 +63,8 @@
 // kyoki wo saari cheejein js ka part nahi balki browser ka part hai which is available ot use in js, we can 
 // also they're provided by browser to use in js, all these features which are made available via browser are
 // put inside window
+
+
 
 
 
@@ -200,26 +206,26 @@
 // ko samajh jaaoge
 
 
-// // global - window
+// global - window
 // console.log(this);
 
 
-// // function - window
+// function - window
 // function abcd(){
 //     console.log(this);
 // }
 // abcd();
 
 
-// // method - object
-// var obj = {
-//     name: function (){
-//         console.log(this);
-//     },
-//     age: 25,
-//     email: "hello@hello.com"
-// }
-// obj.name();
+// method - object
+var obj = {
+    name: function (){
+        console.log(this);
+    },
+    age: 25,
+    email: "hello@hello.com"
+}
+obj.name();
 
 
 // // func inside method (es5) - window
