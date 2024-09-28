@@ -83,8 +83,6 @@
 
 
 
-
-
 // Event Handling
 
 // jab bhi aap kisi element par kisi bhi prakaar ka koi action krte ho to waha par event by default automatically raise hota hai ab agar aapne koi event listener nahi banaya hai to wo event ignore krdiya jaata hai par agar aapne listener banaya hai us event par to wo event ignore nahi kiya jaayega balki uska listener chalega.
