@@ -36,7 +36,7 @@ tl.to(".line h2",{
 tl.to("#loader", {
     opacity:0,
     duration:1,
-    delay:2.6,
+    delay:0,
 })
 
 tl.from("#page1", {
