@@ -129,7 +129,7 @@ html,body{
 }
 
 #page1{
-    height: 85vh;
+    height: 105vh;
     width: 100%;
     background-color: #151515;
     position: relative;
@@ -180,22 +180,22 @@ html,body{
     margin-top: 13vh;
 }
 
-/* #hero1::before{
+#hero1::before{
     content: "01";
     position: absolute;
     font-size: 3vw;
     left: 19%;
-    top: 32%;
+    top: 26%;
     font-family: 'silk serif';
     font-weight: 100;
-} */
+}
 
-#hero-num{
+/* #hero-num{
     width: 3.3vw;
     position: absolute;
     top:31%;
     left:19%;
-    /* background-color: red; */
+    background-color: red;
     overflow: hidden;
 }
 
@@ -203,7 +203,7 @@ html,body{
     font-size: 3.1vw;
     font-weight: 500;
     font-family: 'silk serif';
-}
+} */
 
 /* .hero:nth-child(2)::after{
     content: "01";
