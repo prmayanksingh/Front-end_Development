@@ -180,6 +180,16 @@ html,body{
     margin-top: 13vh;
 }
 
+/* #hero1::before{
+    content: "01";
+    position: absolute;
+    font-size: 3vw;
+    left: 19%;
+    top: 32%;
+    font-family: 'silk serif';
+    font-weight: 100;
+} */
+
 #hero-num{
     width: 3.3vw;
     position: absolute;
