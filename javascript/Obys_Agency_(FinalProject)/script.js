@@ -107,9 +107,9 @@ function cursorAnimation(){
     
     Shery.makeMagnet("#nav-part2 h4");
 }
-locomotiveAnimation();
 loadingAnimation();
-cursorAnimation();
+// cursorAnimation();
+locomotiveAnimation();
 
 
 
