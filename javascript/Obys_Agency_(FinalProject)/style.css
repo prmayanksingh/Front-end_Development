@@ -129,7 +129,7 @@ html,body{
 }
 
 #page1{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     background-color: #151515;
     position: relative;
@@ -183,7 +183,7 @@ html,body{
 #hero-num{
     width: 3.3vw;
     position: absolute;
-    top:26.5%;
+    top:31%;
     left:19%;
     /* background-color: red; */
     overflow: hidden;
